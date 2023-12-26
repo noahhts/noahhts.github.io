@@ -4,16 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <h1>Noah</h1>
-   <h2>Some projects from Frontend Masters Bootcamp:</h2>
+  <nav>
+    <ul>
+      <li>
+        <h1>
+          <a href="index.html">
+            <span class="fa-solid fa-ghost" aria-hidden="true"></span>
+            <span>Noah</span>
+          </a>
+        </h1>
+      </li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://twitter.com/eacxns">
+        <span class="fa-brands fa-twitter" aria-hidden="true"></span>
+        <span class="sr-only">Twitter</span>
+        </a></li>
+      <li><a href="https://github.com/eacxyz">
+        <span class="fa-brands fa-github" aria-hidden="true"></span>
+        <span class="sr-only">Github</span></a></li>
+      <li>
+        <a href="#" class="button">Resume</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- <div class="gradient"></div> -->
+    
+  <section id="intro">
+    <p class="name">Hi, my name is <span>Noah.</span></p>
+    <h2>I build for the web.</h2>
+    <p>I'm an aspiring <a href="https://grugbrain.dev/">grug</a> specializing in the <a href="https://dayssincelastjavascriptframework.com/">hottest new JavaScript framework</a>.</p>
+    <p>Currently, I'm working at a healthcare tech company, but enjoy learning about web development and other areas of software engineering and programming in my free time.</p>
+  </section>
+
+  <div class="gradient"></div>
+
+  <div class="section-blue">
+    <section id="projects">
+      <h2>Projects I'm proud of</h2>
+      <article>
+        <div class="text">
+          <h4>Latest Project</h4>
+          <a href="https://eacxyz.github.io/wordle/" class="project-name"><h3>Word Masters</h3></a>
+          <p class="box">A clone of <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>, a game created by <a href="https://www.powerlanguage.co.uk/">Josh Wardle</a>. This was the final project for the <a href="https://frontendmasters.com/courses/web-development-v3/">Intro Web Dev v3 course at Frontend Masters</a>, utilizing an API to get the word of the day and to check if the guess is a valid word.</p>
+          <h4>Technologies used:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <p class="icon">
+            <a href="https://github.com/eacxyz/wordle">
+              <span class="fa-brands fa-github" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </p>
+        </div>
+        <div class="img"><a href="https://eacxyz.github.io/wordle/"><img src="img/wordle.png" alt="screenshot of word masters game"></a></div>
+      </article>
+      <article class="reverse">
+        <div class="text">
+          <a href="https://eacxyz.github.io/mole/" class="project-name"><h3>Feed-A-Mole</h3></a>
+            <p class="box">Feed-a-mole, a game similar to wack-a-mole. This was the final project for the Frontend Masters <a href="https://frontendmasters.com/bootcamp/">bootcamp</a>. It's recommended to zoom out to 80% (or lower) to play.</p>
+            <h4>Technologies used:</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <p class="icon">
+                <a href="https://github.com/eacxyz/mole">
+                <span class="fa-brands fa-github" aria-hidden="true"></span>
+                <span class="sr-only">Github</span>
+                </a>
+            </p>
+        </div>
+        <div class="img"><a href="https://eacxyz.github.io/mole/"><img src="img/mole.png" alt="screenshot of feed-a-mole game"></a></div>
+      </article>
+      <article>
+        <div class="text">
+          <a href="https://eacxyz.github.io/calculator/" class="project-name"><h3>Calculator</h3></a>
+          <p class="box">A basic calculator as part of <a href="https://www.theodinproject.com/lessons/foundations-calculator">The Odin Project</a>. <a href="https://eacxyz.github.io/calc/">Here</a> is another calculator as part of the Frontend Masters <a href="https://frontendmasters.com/bootcamp/">bootcamp</a> and the <a href="https://frontendmasters.com/courses/web-development-v3/">Intro Web Dev v3 course at Frontend Masters</a>.</p>
+          <h4>Technologies used:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <p class="icon">
+            <a href="https://github.com/eacxyz/calculator">
+              <span class="fa-brands fa-github" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </p>
+        </div>
+        <div class="img"><a href="https://eacxyz.github.io/calculator/"><img src="img/calculator.png" alt="screenshot of a calculator app"></a></div>
+      </article>
+      <article class="reverse">
+        <div class="text">
+          <a href="https://eacxyz.github.io/etch-a-sketch/" class="project-name"><h3>Etch-a-Sketch</h3></a>
+          <p class="box">An etch-a-sketch app as part of <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">The Odin Project</a>. Simply move your mouse to draw. You can use RGB mode, do shading with darkening mode, and be more precise with more squares in the grid.</p>
+          <h4>Technologies used:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <p class="icon">
+            <a href="https://github.com/eacxyz/etch-a-sketch">
+              <span class="fa-brands fa-github" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </p>
+        </div>
+        <div class="img"><a href="https://eacxyz.github.io/etch-a-sketch/"><img src="img/etch-a-sketch.png" alt="screenshot of an etch-a-sketch app"></a></div>
+      </article>
+    </section>
+  </div>
+  <div class="gradient"></div>
+  <div class="section-plum">
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>Feel free to reach out to me about literally anything: programming, sports, life, whatever.</p>
+      <p><a href="mailto:hey@eacxns.com" class="button">Email me</a></p>
+    </section>
+  </div>
+
+  <div class="gradient"></div>
+
+  <footer>
+    <small>This website was built by following <a href="https://frontendmasters.com/courses/getting-started-css/">this course</a>. Source code <a href="https://github.com/eacxyz/eacxyz.github.io">here</a>.</small>
+  </footer>
+
+   <!-- <h2>Some projects from Frontend Masters Bootcamp:</h2>
    <h2>Some projects from The Odin Project:</h2>
    <h2>some projects from intro to web dev v3 at fem</h2>
    <p>html + css:</p>
    <ul>
     <li>newspaper</li>
     <li>coffee masters</li>
-   </ul>
+   </ul> -->
 </body>
 </html>
